@@ -35,7 +35,8 @@ module Revdev
     end
 
     def device_name
-      read_ioctl_as_string_with EVIOCGNAME
+      ""
+      #read_ioctl_as_string_with EVIOCGNAME
     end
 
     def physical_location
